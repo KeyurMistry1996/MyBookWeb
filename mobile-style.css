@@ -1,0 +1,42 @@
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+        text-align: center !important;
+
+    }
+
+    .section-1 .col-md-6 .panel p {
+        padding-left: 3rem;
+    }
+
+    .section-2 .cover {
+        background: none;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .section-4 .card {
+        width: 18rem;
+    }
+
+    .section-2 {
+        margin-top: 16rem;
+    }
+
+    .section-2 .numbers {
+        padding-top: 2rem;
+    }
+
+
+}
